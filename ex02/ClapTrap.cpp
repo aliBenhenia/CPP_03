@@ -5,15 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abenheni <abenheni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/22 19:11:10 by abenheni          #+#    #+#             */
-/*   Updated: 2023/09/23 20:11:12 by abenheni         ###   ########.fr       */
+/*   Created: 2023/09/23 20:21:24 by abenheni          #+#    #+#             */
+/*   Updated: 2023/09/23 20:21:26 by abenheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "ClapTrap.hpp"
-#include "ScavTrap.hpp"
 
 ClapTrap :: ClapTrap() :
                         name("fakeName"),
@@ -90,4 +87,3 @@ ClapTrap :: ~ClapTrap()
 {
     std :: cout << "destructor called" << std :: endl;
 }
-

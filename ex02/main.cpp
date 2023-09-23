@@ -5,22 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abenheni <abenheni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/22 19:11:20 by abenheni          #+#    #+#             */
-/*   Updated: 2023/09/23 19:55:52 by abenheni         ###   ########.fr       */
+/*   Created: 2023/09/23 20:20:02 by abenheni          #+#    #+#             */
+/*   Updated: 2023/09/23 20:30:04 by abenheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "ClapTrap.hpp"
-#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int main()
 {
-    ScavTrap obj1("amine");
-    ScavTrap obj2(obj1);
-    obj1 = obj2;
-    obj2.print();
-    obj2.attack("nora");
+    FragTrap obj;
+    FragTrap obj2(obj);
+    obj2.highFivesGuys();
     return 0;
 }
